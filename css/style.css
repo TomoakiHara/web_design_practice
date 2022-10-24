@@ -1,0 +1,257 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left {
+  width:15%
+}
+.header_link_item a {
+  text-decoration: none;
+  color: gray;
+}
+.header_link_item {
+  margin: 0 5px;
+}
+
+
+.main1_inner {
+  position: relative;
+}
+.main1_title{
+  color: mediumvioletred;
+  position: absolute;
+  font-family: "Indie Flower", cursive;
+  font-weight: lighter;
+  margin-top:50px;
+  margin-left:100px;
+}
+.main1_subtitle{
+  color:mediumvioletred;
+  position: absolute;
+  font-weight: bolder;
+  margin-top: 200px;
+  margin-left: 100px;
+  }
+.main1_item {
+  color: gray;
+  position: absolute;
+  font-size: 10px;
+  margin-top: 230px;
+  margin-left: 100px;
+}
+span{
+  color:darkcyan
+}
+.main1_img {
+  display: flex;
+  justify-content: flex-end;
+}
+.main1_img img {
+  width: 60vw;
+}
+
+
+.main2_inner {
+  margin-top: 50px;
+}
+.main2_icon {
+  color: mediumvioletred;
+  font-family: "Indie Flower", cursive;
+  font-weight: lighter;
+  font-size:10px;
+}
+.main2_title {
+  color: gray;
+  font-size: 20px;
+}
+.main2_list{
+  width: 650px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.main2_list_date {
+  color: gray;
+  float:left;
+  padding:10px 5px;
+  border-bottom: 1px solid lightgray;
+}
+.main2_list_icon {
+  text-decoration: none;
+  color: white;
+  background-color: mediumvioletred;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin:0px 30px;
+  border-bottom: 1px solid lightgray;
+}
+.main2_list_item{
+  color: gray;
+  padding: 10px 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+.main3_inner{
+  margin-top: 50px;
+  background-color: whitesmoke;
+  padding:30px 0;
+}
+.main3_icon {
+  color: mediumvioletred;
+  font-family: "Indie Flower", cursive;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+}
+.main3_title {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+.main3_contents {
+  display: flex;
+  justify-content: space-around;
+}
+.main3_text {
+  width:400px;
+  color: gray;
+}
+.main3_img {
+  width: 40vw;
+}
+
+
+.main4_inner {
+  margin-top: 50px;
+}
+.main4_icon {
+  color: mediumvioletred;
+  font-family: "Indie Flower", cursive;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.main4_title {
+  color: gray;
+  font-size: 20px;
+}
+.main4_contents {
+  display:grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 500px 500px;
+}
+.main4_box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  color:white;
+  background-color:mediumvioletred;
+  text-align: center;
+  padding: 20% 5% 0;
+}
+.main4_img1 {
+  width: 30%;
+}
+.main4_box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: white;
+  background-color: palevioletred;
+  padding: 10% 5% 0;
+}
+.main4_img2 {
+  width: 30%;
+  float: left;
+}
+.main4_box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: white;
+  background-color: lightpink;
+  padding: 10% 5% 0;
+}
+.main4_img3 {
+  width: 30%;
+  float: left;
+}
+
+
+.main5_inner {
+  margin-top: 300px;
+  background-color: whitesmoke;
+  padding: 30px 0px;
+}
+.main5_icon {
+  color: mediumvioletred;
+  font-family: "Indie Flower", cursive;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.main5_title {
+  color: gray;
+  font-size: 20px;
+}
+.main5_contents{
+  display: flex;
+  justify-content: center;
+}
+.main5_card {
+  width:300px;
+  padding:10px 10px;
+  border-radius: 10;
+  background-color: white;
+  display: relative;
+}
+.main5_card_category {
+  background-color: mediumvioletred;
+  color:white;
+  width:40px;
+  display: absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+}
+.main5_card_img {
+  width:100%;
+  display: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -30px;
+  z-index: -10;
+}
+.main5_card_other{
+  display: flex;
+  justify-content: space-around;
+}
+.main5_card_date{
+  color: gray;
+  display:inline-block
+}
+.main5_card_tag {
+  color: gray;
+  display: inline-block
+}
+.main5_botton {
+width:200px;
+color: mediumvioletred;
+padding: 10px 0px;
+border-radius:30px;
+margin:20px auto;
+background:white;
+border:1px solid mediumvioletred;
+text-align: center;
+display:block;
+}
+
+.main6_inner {
+  margin-top: 50px;
+}
+
+.main7_inner {
+  margin-top: 50px;
+}
+
+.main8_inner {
+  margin-top: 50px;
+}
