@@ -16,6 +16,7 @@
 
 
 .main1_inner {
+  padding: 20px 0;
   position: relative;
 }
 .main1_title{
@@ -23,22 +24,25 @@
   position: absolute;
   font-family: "Indie Flower", cursive;
   font-weight: lighter;
-  margin-top:50px;
-  margin-left:100px;
+  font-size: 5vw;
+  position: absolute;
+  top: 10%;
+  left: 15%;
 }
 .main1_subtitle{
   color:mediumvioletred;
-  position: absolute;
   font-weight: bolder;
-  margin-top: 200px;
-  margin-left: 100px;
+  font-size: 2vw;
+  position: absolute;
+  top:60%;
+  left: 15%;
   }
 .main1_item {
   color: gray;
+  font-size: 0.5vw;
   position: absolute;
-  font-size: 10px;
-  margin-top: 230px;
-  margin-left: 100px;
+  top: 70%;
+  left: 15%;
 }
 span{
   color:darkcyan
@@ -53,18 +57,19 @@ span{
 
 
 .main2_inner {
-  margin-top: 50px;
-  margin-left: 150px;
+  padding: 20px 0;
 }
 .main2_icon {
   color: mediumvioletred;
   font-family: "Indie Flower", cursive;
   font-weight: lighter;
   font-size:10px;
+  margin-left: 20%;
 }
 .main2_title {
   color: gray;
   font-size: 20px;
+  margin-left: 20%;
 }
 .main2_list{
   width: 450px;
@@ -73,6 +78,7 @@ span{
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
   font-size: 10px;
+  margin:0 auto
 }
 .main2_list_date {
   color: gray;
@@ -97,7 +103,6 @@ span{
 
 
 .main3_inner{
-  margin-top:50px;
   background-color: whitesmoke;
   padding:20px 0;
 }
@@ -116,12 +121,12 @@ span{
 .main3_contents {
   display: flex;
   justify-content: space-around;
-  padding:0 100px;
+  padding:0 10vw;
   font-size:10px;
 }
 .main3_text {
-  width:400px;
-  padding-right:100px;
+  width:40vw;
+  padding-right:10vw;
   color: gray;
 }
 .main3_img {
@@ -130,7 +135,8 @@ span{
 
 
 .main4_inner {
-  margin: 50px 15%;
+  margin: 0 15%;
+  padding: 20px 0;
 }
 .main4_icon {
   color: mediumvioletred;
@@ -144,8 +150,8 @@ span{
 }
 .main4_contents {
   display:grid;
-  grid-template-rows: 120px 120px;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 55% 55%;
 }
 .main4_box1 {
   grid-column: 1/2;
@@ -153,10 +159,10 @@ span{
   color:white;
   background-color:mediumvioletred;
   text-align: center;
-  padding: 5% 5% 0;
+  padding:10% 10%;
 }
 .main4_img1 {
-  width: 30%;
+  width: 10vw;
 }
 .main4_subtitle1{
   font-size:10px
@@ -169,39 +175,42 @@ span{
   grid-row: 1/2;
   color: white;
   background-color: palevioletred;
-  padding: 5% 5% 0;
+  padding: 5% 5%;
 }
 .main4_img2 {
-  width: 30%;
+  width: 10vw;
   float: left;
 }
 .main4_subtitle2 {
-  font-size: 10px
+  font-size: 10px;
+  margin-left: 10px;
 }
 .main4_text2 {
-  font-size: 10px
+  font-size: 10px;
+  margin-left: 10px;
 }
 .main4_box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   color: white;
   background-color: lightpink;
-  padding: 5% 5% 0;
+  padding: 5% 5%;
 }
 .main4_img3 {
-  width: 30%;
+  width: 10vw;
   float: left;
 }
 .main4_subtitle3 {
-  font-size: 10px
+  font-size: 10px;
+  margin-left:10px;
 }
 .main4_text3 {
-  font-size: 10px
+  font-size: 10px;
+  margin-left: 10px;
 }
 
 
 .main5_inner {
-  margin-top: 50px;
   background-color: whitesmoke;
   padding: 20px 0px;
   position: relative;
@@ -291,7 +300,8 @@ display:block;
 
 
 .main6_inner {
-  margin: 50px 10%;
+  margin: 0 10%;
+  padding: 20px 0;
 }
 .main6_icon {
   color: mediumvioletred;
